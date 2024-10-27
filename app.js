@@ -62,7 +62,7 @@ function Calc() {
     } else if (operator === "*") {
         result = num1 * num2;
     } else if (operator === "/") {
-        num1 / num2;
+        result = num1 / num2;
     } else {
         result = "Invalid operator";
     }
